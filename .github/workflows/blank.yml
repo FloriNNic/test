@@ -26,3 +26,5 @@ jobs:
         uses: FloriNNic/ValidateScript@v1.0.4
         env:
           SCRIPTING_LICENSE_KEY: ${{secrets.SCRIPTING_LICENSE_KEY}}
+        with:
+          validationDir: val
