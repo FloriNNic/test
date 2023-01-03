@@ -10,7 +10,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Oxygen Validation Script
-        uses: FloriNNic/ValidateScript@v1.0.4
+        uses: FloriNNic/ValidateScript@v1.0.5
         env:
           SCRIPTING_LICENSE_KEY: ${{secrets.SCRIPTING_LICENSE_KEY}}
         with:
